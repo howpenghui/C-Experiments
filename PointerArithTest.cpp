@@ -19,10 +19,7 @@ int main(){
   double *y = (double *)calloc(10,sizeof(double));
   cout << "malloced y = " << y << endl;
   cout << "the end of y = " << y+10 << endl;
-  //x = (double *)calloc(10,sizeof(double));
-  //cout << "freed x = " << x << endl;
-  
+  cout << "freed x = " << x << endl;
   free(y);
-  cout << "Rat So Cute!" << endl;
   return 0;
 }
